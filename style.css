@@ -1,0 +1,56 @@
+body {
+    background-image: url(calender.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formid {
+    margin-top: 4%;
+}
+
+#formid input {
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+#btnid {
+    border: none;
+    padding: 1%;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width:768px) {
+    #nameid,
+    #birthid,
+    #resid {
+        margin-top: 45px;
+        padding: 3%;
+    }
+    body {
+        background-color: aqua;
+        height: 100vh;
+    }
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        color: rgb(220, 230, 169);
+        font-weight: bold;
+    }
+    #btnid {
+        margin-top: 45px;
+        border: none;
+        padding: 1%;
+        color: white;
+        background-color: blueviolet;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+}
